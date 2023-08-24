@@ -16,7 +16,7 @@
 .mainContent {
   margin-top: 6rem;
   background-color: var(--text-white);
-  max-width: 390px;
+  width: 380px;
   padding: 20px 15px;
   box-sizing: border-box;
   z-index: 1;
@@ -24,10 +24,10 @@
 
 .mobileSidebar{
   background-color:transparent;
-  max-width: 390px;
+  max-width: 380px;
   position: fixed;
   top: 0;
-  left: -390px;
+  left: -380px;
   right: 0;
   z-index: 99;
   transition: all 0.5s ease-in-out;
@@ -64,7 +64,7 @@
   right: 0;
   bottom: 0px;
   z-index: 100;
-  max-width: 390px;
+  max-width: 380px;
   background-color: rgba(0,0,0,0.3);
   transition: all 0.5s ease;
   opacity: 0;
