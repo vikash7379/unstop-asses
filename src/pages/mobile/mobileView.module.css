@@ -1,0 +1,83 @@
+.container{
+  position: relative;
+  background-color: var(--system-background);
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* max-width:425px ; */
+  justify-content: flex-start;
+}
+.mainContent {
+  margin-top: 6rem;
+  background-color: var(--text-white);
+  max-width: 375px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.mobileSidebar{
+  background-color:transparent;
+  max-width: 375px;
+  position: fixed;
+  top: 0;
+  left: -375px;
+  right: 0;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+  animation: fadebg 0.5s 0.5s ease-in-out both;
+}
+
+@keyframes fadebg {
+  to{
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+.active{
+  left: 0px !important;
+}
+
+
+.mobileWrapper{
+  max-width: 300px;
+}
+
+.mobileHeaderComp {
+  position: fixed;
+  top: 0;
+  height: 6rem;
+  z-index: 50;
+}
+
+
+.form{
+  position: fixed;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  max-width: 375px;
+  background-color: rgba(0,0,0,0.3);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+
+.formWrapper{
+  margin-top: 80px;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 0.5s ease-in;
+}
+
+.activeFormDisp{
+  top: 0 !important;
+  opacity: 1;
+}

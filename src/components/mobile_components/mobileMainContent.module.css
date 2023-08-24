@@ -1,0 +1,95 @@
+.mainContainer{
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  color: var(--text-100);
+  font-family: var(--font-inter);
+}
+
+.searchWrapper {
+  border-radius: 50px;
+  background-color: var(--text-white);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.myAssessmentParent {
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addWrapper,
+.frameParent1 {
+  display: flex;
+  align-items: center;
+}
+.addWrapper {
+  border-radius: 51.43px;
+  background-color: var(--text-white);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 7px;
+  justify-content: center;
+  cursor: pointer;
+}
+.frameParent1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  z-index: 0;
+}
+.para {
+  align-self: stretch;
+  position: relative;
+  font-size:12px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.frameDiv {
+  cursor: pointer;
+  align-self: stretch;
+  border-radius:12px;
+  background-color: var(--system-background);
+  border: 1px dashed var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 12px;
+}
+
+.frameContainer {
+  width: 345px;
+  gap: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+.frameContainer,
+.frameParent,
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: 30px;
+}

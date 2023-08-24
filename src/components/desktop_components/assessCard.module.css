@@ -1,0 +1,88 @@
+.container {
+  border-radius: 12px;
+  height: 100%;
+  border: 1px solid var(--color-gainsboro);
+  padding: 16px;
+  max-width: 450px;
+}
+.firstSec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.heading{
+  margin-top: 8px;
+}
+.calendarTodayParent,
+.jobParent {
+  display: flex;
+  margin-top: 2px;
+  margin-top: 2px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.calendarTodayParent {
+  height: 22px;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--primary-50);
+}
+.jobParent {
+  gap: 10px;
+  font-size: 14px;
+}
+
+.secondSec {
+  margin-top: 8px;
+  justify-content: space-between;
+  /* height:0px; */
+}
+
+.secondSecChildOne{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondSecChildOne {
+  flex-direction: row;
+  gap: 14px;
+}
+
+.secondSecChildTwo {
+  gap: 10px;
+}
+
+.linkParent {
+  border-radius: 50px;
+  border: 1px solid var(--text-100);
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 2px 8px 2px 6px;
+  align-items: center;
+  gap: 4px;
+}
+
+.frameWrapper2 {
+  color: var(--text-white);
+}
+.secondSec,
+.secondSecChildTwo,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lpWrapper {
+  border-radius: 32.73px;
+  background-color: var(--pastel-neon-blue);
+  border: 1px solid var(--text-white);
+  width: 30px;
+  height: 30px;
+  padding: 5px 6px;
+}
+

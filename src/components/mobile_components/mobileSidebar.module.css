@@ -1,0 +1,97 @@
+.sidebarContainer {
+  background-color: var(--secondary-5);
+  width: 100%;
+  height: 1074px;
+  overflow: hidden;
+  padding: 40px 20px 10px;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: var(--primary-100);
+  font-family: var(--font-inter);
+}
+
+.menuParent {
+  align-self: stretch;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.dashboardParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboardParent {
+  gap: 8px;
+}
+.frameWrapper {
+  height: 50px;
+  padding: 10px;
+}
+
+.noteAltParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 0;
+}
+
+.frameContainer,
+.sidebarWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameContainer {
+  border-radius: 8px;
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--secondary-1);
+  height: 50px;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  color: var(--secondary-1);
+}
+.sidebarWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.adminWrapper,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 10px !important;
+}
+.adminWrapper {
+  background-color: var(--accent-red-light);
+  border: 1px solid var(--accent-new-red);
+  height: 18px;
+  padding: 7px 8px;
+  justify-content: flex-start;
+  font-size: 10px;
+  color: var(--accent-new-red);
+}
+.frameParent1 {
+  align-self: stretch;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: var(--secondary-5);
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+}
+

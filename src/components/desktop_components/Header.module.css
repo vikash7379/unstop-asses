@@ -1,0 +1,48 @@
+.headerMain {
+  border-radius: 12px 12px 0 0;
+  background-color: white;
+  border-bottom: 1px solid var(--system-divider);
+  flex-direction: column;
+  padding: 0 20px;
+  font-size: 20px;
+  color: var(--text-100);
+  width: 100%;
+  max-width: 1250px;
+}
+.myAssessmentsWrapper {
+  border-bottom: 3px solid #0073e6;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.firstSec,
+.navLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navLink {
+  font-size: 14px;
+  color: #0073e6;
+}
+.firstSec {
+  align-items: center;
+  gap: 20px;
+}
+.mobileViewIcon {
+  width: 27px;
+  height: 40px;
+  margin-top: 22px;
+}
+.headerWrapper,
+.headerMain {
+  align-self: stretch;
+  display: flex;
+}
+.headerWrapper {
+  align-items: center;
+  justify-content: space-between;
+}
